@@ -1,0 +1,4 @@
+HateoasApiSelfGeneratingClient = function() {
+
+};
+alert('Hello!')

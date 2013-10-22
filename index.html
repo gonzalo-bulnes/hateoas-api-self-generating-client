@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="description" content="A (hopefully) tiny self-generating client for HATEOAS-contrained REST-like API's.">
+      <meta name="author" content="Gonzalo Bulnes Guilpain">
+      <link rel="shortcut icon" href="src/images/favicon.png">
+
+      <title>HATEOAS API Self-generating Client</title>
+
+      <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css">
+      <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.no-icons.min.css">
+
+      <!-- Jumbotron Narrow template -->
+      <link href="lib/stylesheets/jumbotron-narrow.css" rel="stylesheet">
+
+      <style>
+         .btn-success {
+            background-color: #F13D45;
+            border-color: #F0222B;
+            color: #FFFFFF;
+         }
+         .btn-success:hover,
+         .btn-success:focus,
+         .btn-success:active,
+         .btn-success.active,
+         .open .dropdown-toggle.btn-success {
+            background-color: #e63139;/* #F7353E; /*#F0222B;*/
+            border-color: #F13D45;
+            color: #FFFFFF;
+         }
+         .lead {
+            font-size: 16px;
+            color: #888888;
+         }
+         .jumbotron h1 {
+            font-size: 56px;
+         }
+         .jumbotron {
+            background-color: #FFFFFF;
+            border: 1px solid #DDDDDD;
+         }
+      </style>
+
+      <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+      <!--[if lt IE 9]>
+      <script src="../../assets/js/html5shiv.js"></script>
+      <script src="../../assets/js/respond.min.js"></script>
+      <![endif]-->
+   </head>
+
+   <body>
+
+      <div class="container">
+         <div class="header">
+           <ul class="nav nav-pills pull-right">
+             <li class="active"><a href="#">Home</a></li>
+             <li><a href="#">Documentation</a></li>
+             <li><a href="https://github.com/gonzalo-bulnes/hateoas-api-self-generating-client">Fork me!</a></li>
+           </ul>
+           <h3 class="text-muted">HATEOAS API Self-generating Client</h3>
+         </div>
+
+         <div class="jumbotron">
+            <h1>Self-documented&nbsp;API's</h1>
+            <p class="lead">The HATEOAS constraints allow to build self-documented API's. This Javascript application generates the client views from the information provided by the API itself and allows simple interaction with the API for&nbsp;demonstration or testing&nbsp;purposes.</p>
+            <form class="form">
+               <div class="form-group">
+                  <input type="text" placeholder="e.g. https://api.exlibris.com" class="form-control input-lg"/>
+               </div>
+               <button class="btn btn-lg btn-success">Query an API now</button>
+            </form>
+         </div>
+
+         <div class="row marketing">
+           <div class="col-lg-6">
+             <h4>Subheading</h4>
+             <p>Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum.</p>
+
+             <h4>Subheading</h4>
+             <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cras mattis consectetur purus sit amet fermentum.</p>
+
+             <h4>Subheading</h4>
+             <p>Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
+           </div>
+
+           <div class="col-lg-6">
+             <h4>Subheading</h4>
+             <p>Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum.</p>
+
+             <h4>Subheading</h4>
+             <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cras mattis consectetur purus sit amet fermentum.</p>
+
+             <h4>Subheading</h4>
+             <p>Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
+           </div>
+         </div>
+
+         <div class="footer">
+            <p><a href="https://github.com/gonzalo-bulnes/hateoas-api-self-generating-client">Fork me on Github!</a></p>
+         </div>
+
+      </div> <!-- /container -->
+
+      <!--<script src="https://codeorigin.jquery.com/jquery-2.0.3.min.js"></script>-->
+      <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+      <script src="src/HateoasApiSelfGeneratingClient.js"></script>
+   </body>
+</html>
