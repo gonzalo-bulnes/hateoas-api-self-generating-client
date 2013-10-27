@@ -5,7 +5,7 @@ HATEOAS API Self-generating Client
 
 [![Build Status](https://secure.travis-ci.org/gonzalo-bulnes/hateoas-api-self-generating-client.png?branch=master)](http://travis-ci.org/gonzalo-bulnes/hateoas-api-self-generating-client)
 
-API which apply the [HATEOAS](http://vimeo.com/30586709) constraints are self-documented. This Javascript application generates the client views from the information provided by the API itself and allows simple interaction with the API for demonstration or testing purposes.
+API which apply the [HATEOAS](http://vimeo.com/30586709 "See the No Versioning section (28:42)") constraints are self-documented. This Javascript application generates the client views from the information provided by the API itself and allows simple interaction with the API for demonstration or testing purposes.
 
 Testing
 -------
