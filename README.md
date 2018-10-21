@@ -10,7 +10,7 @@ API which apply the [HATEOAS](http://vimeo.com/30586709) constraints are self-do
 Testing
 -------
 
-[Jasmine](http://pivotal.github.com/jasmine) provides a server to run the specs suite.
+[Jasmine](https://jasmine.github.io/) provides a server to run the specs suite.
 
 ```bash
 cd hateoas-api-self-generating-client
